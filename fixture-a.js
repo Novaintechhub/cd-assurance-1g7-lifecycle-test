@@ -1,3 +1,3 @@
-export function parseUnsafe(value) {
-  return eval(value);
+export function parseSafely(value) {
+  return JSON.parse(value);
 }
